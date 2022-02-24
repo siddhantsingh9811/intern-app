@@ -1,10 +1,14 @@
 import React from 'react';
-
+import Info from './Components/Info';
+import Main from './Components/Main';
+import Navigation from './Components/Navigation';
 
 function App() {
   return (
-    <div className="App">
-      cum
+    <div className="app">
+      <Navigation />
+      <Main />
+      <Info />
     </div>
   );
 }

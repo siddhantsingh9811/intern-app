@@ -1,0 +1,132 @@
+/* Navigation Component  */
+.navigation{
+    background-color: var(--bg);
+    padding-left: 15px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .nav-header{
+    display: flex;
+    font-family: 'Poppins';
+    font-weight: 600;
+    justify-content: space-between;
+    align-items: center;  
+    padding: 35px 30px 35px 0; 
+  }
+  .nav-header .name{
+    display: flex;
+    align-items: center;
+  }
+  .nav-header .name .text{
+    font-size: 25px;
+    padding-left: 10px;
+  }
+  .nav-header .icon{
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 35px;
+    width: 35px;
+    background-color: var(--primary);
+    border-radius: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+  }
+  .nav-header svg{
+    height: 45px;
+    width: 45px;
+    justify-self: flex-end;
+  }
+  
+  /* Options  */
+  .options{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: var(--sec-text);
+  
+  }
+  .options .op{
+    font-size: 17px;
+    display: flex;
+    padding: 16px 0 16px 0;
+    cursor: pointer;
+  
+  }
+  .options .op svg{
+    height: 22px;
+    width: 22px;
+    padding-right: 15px;
+  }
+  .options .triggered{
+    background-color: #353945;
+    color: white;
+    padding-left: 15px;
+    border-radius: 10px;
+  }
+  
+  /* nav footer */
+  .nav-footer{
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+    justify-self: flex-end;
+    margin-top: auto;;
+  
+  }
+  .indicators{
+    display: flex;
+  }
+  .nav-footer .balance{
+    display: flex;
+    background-color: #353945;
+    padding: 5px 15px 5px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 15px;
+    margin: 5px;
+  }
+  .nav-footer .balance .icon{
+    height: 22px;
+    width: 22px;
+    background-color: var(--primary);
+    font-family: 'Poppins', sans-serif;
+    line-height: 22px;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    margin-right: 5px;
+  }
+  .nav-footer .buy{
+    display: flex;
+    background-color: #A3E3FF;
+    padding: 5px 15px 5px 15px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 15px;
+    color: var(--primary);
+    margin: 5px;
+  }
+  .nav-footer .misc{
+    display: flex;
+  
+  }
+  .nav-footer .misc .icon{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+  }
+  .nav-footer .misc .bt{
+    height: 40px;
+    padding:3px;
+  }
+  
