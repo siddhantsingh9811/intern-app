@@ -6,6 +6,7 @@ interface IMainProps {
 }
 
 const Main: React.FunctionComponent<IMainProps> = (props) => {
+  
   return (
       <div className="main">
           <div className="main-header">
