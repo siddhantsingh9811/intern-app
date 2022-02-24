@@ -26,18 +26,17 @@ body{
   width: 100vw;
   color:white;
   overflow-x: hidden;
-  zoom: 0.8;
 }
 .navigation{
   flex-basis: 15vw;
-
+  zoom: 0.8;
 }
 .main{
   flex-basis: 60vw;
-
+  zoom: 0.8;
 }
 .info{
   flex-basis: 25vw;
-
+  zoom: 0.8;
 }
 
